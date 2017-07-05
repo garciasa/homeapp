@@ -1,0 +1,9 @@
+{
+  "name": "HomeApp",
+  "version": "0.0.1",
+  "description": "Home Automation POC",
+  "main": "index.js",
+  "repository": "https://github.com/garciasa/homeapp.git",
+  "author": "garciasa",
+  "license": "MIT"
+}
