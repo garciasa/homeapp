@@ -2655,7 +2655,7 @@ fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
 
-fsevents@1.1.2, fsevents@^1.0.0:
+fsevents@^1.0.0:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-1.1.2.tgz#3282b713fb3ad80ede0e9fcf4611b5aa6fc033f4"
   dependencies:
@@ -4101,6 +4101,12 @@ map-obj@^1.0.0, map-obj@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/map-obj/-/map-obj-1.0.1.tgz#d933ceb9205d82bdcf4886f6742bdc2b4dea146d"
 
+material-ui-icons@^1.0.0-alpha.19:
+  version "1.0.0-alpha.19"
+  resolved "https://registry.yarnpkg.com/material-ui-icons/-/material-ui-icons-1.0.0-alpha.19.tgz#a6c5db87be335bbc483189c56804d681b7ea6b54"
+  dependencies:
+    recompose "^0.23.5"
+
 material-ui@next:
   version "1.0.0-alpha.21"
   resolved "https://registry.yarnpkg.com/material-ui/-/material-ui-1.0.0-alpha.21.tgz#c8e73fc253083b79e23aee6ac48b95aaffcae444"
@@ -5274,49 +5280,6 @@ react-event-listener@^0.4.5:
     fbjs "^0.8.4"
     prop-types "^15.5.4"
     warning "^3.0.0"
-
-react-scripts@1.0.10:
-  version "1.0.10"
-  resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-1.0.10.tgz#876035594742220f40ffb865a4c7e8dc0fa7ae23"
-  dependencies:
-    autoprefixer "7.1.1"
-    babel-core "6.25.0"
-    babel-eslint "7.2.3"
-    babel-jest "20.0.3"
-    babel-loader "7.0.0"
-    babel-preset-react-app "^3.0.1"
-    babel-runtime "6.23.0"
-    case-sensitive-paths-webpack-plugin "2.1.1"
-    chalk "1.1.3"
-    css-loader "0.28.4"
-    dotenv "4.0.0"
-    eslint "3.19.0"
-    eslint-config-react-app "^1.0.5"
-    eslint-loader "1.7.1"
-    eslint-plugin-flowtype "2.34.0"
-    eslint-plugin-import "2.2.0"
-    eslint-plugin-jsx-a11y "5.0.3"
-    eslint-plugin-react "7.1.0"
-    extract-text-webpack-plugin "2.1.2"
-    file-loader "0.11.2"
-    fs-extra "3.0.1"
-    html-webpack-plugin "2.29.0"
-    jest "20.0.4"
-    object-assign "4.1.1"
-    postcss-flexbugs-fixes "3.0.0"
-    postcss-loader "2.0.6"
-    promise "7.1.1"
-    react-dev-utils "^3.0.2"
-    react-error-overlay "^1.0.9"
-    style-loader "0.18.2"
-    sw-precache-webpack-plugin "0.11.3"
-    url-loader "0.5.9"
-    webpack "2.6.1"
-    webpack-dev-server "2.5.0"
-    webpack-manifest-plugin "1.1.0"
-    whatwg-fetch "2.0.3"
-  optionalDependencies:
-    fsevents "1.1.2"
 
 react-scrollbar-size@^2.0.0:
   version "2.0.0"
