@@ -13,11 +13,13 @@ const styleSheet = createStyleSheet('Temperature', theme => ({
   headline: {
     component: "h3",
     marginBottom: 20,
+    textAlign: "center",
   },
   body: {
     marginBottom: 16,
     fontSize: 25,
     color: theme.palette.text.secondary,
+    textAlign: "center",
   },
 }));
 

@@ -12,6 +12,7 @@ const styleSheet = createStyleSheet('Camera', theme => ({
   headline: {
     component: 'h3',
     marginBottom: 20,
+    textAlign: "center",
   },
   body: {
     marginBottom: 16,

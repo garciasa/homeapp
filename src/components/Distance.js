@@ -13,11 +13,13 @@ const styleSheet = createStyleSheet('Distance', theme => ({
   headline: {
     component: "h3",
     marginBottom: 20,
+    textAlign: "center",
   },
   body: {
     marginBottom: 16,
     fontSize: 25,
     color: theme.palette.text.secondary,
+    textAlign: "center",
   },
 }));
 
@@ -57,7 +59,7 @@ class Distance extends Component {
 }
 
 Distance.propTypes = {
-  classes: PropTypes.object.isRequired,
+    classes: PropTypes.object.isRequired,
 };
 
 export default withStyles(styleSheet)(Distance);
