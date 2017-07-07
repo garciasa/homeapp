@@ -7,14 +7,14 @@ class Temperature extends Component {
     };
     componentDidMount(){
         const self = this;
-        client.on('connect', function () {
-            client.subscribe('/home/cave/sensors/temperature');
-        });
+        // client.on('connect', function () {
+        //     client.subscribe('/home/cave/sensors/temperature');
+        // });
 
-        client.on('message', function (topic, message) {
-            if (topic === '/home/cave/sensors/temperature')
-                self.setState({ temperature: message.toString()});
-        });  
+        // client.on('message', function (topic, message) {
+        //     if (topic === '/home/cave/sensors/temperature')
+        //         self.setState({ temperature: message.toString()});
+        // });  
     }
     render(){
         return(

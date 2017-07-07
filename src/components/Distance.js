@@ -7,14 +7,14 @@ class Distance extends Component {
     };
     componentDidMount(){
         const self = this;
-        client.on('connect', function () {
-            client.subscribe('/home/cave/sensors/distance');
-        });
+        // client.on('connect', function () {
+        //     client.subscribe('/home/cave/sensors/distance');
+        // });
 
-        client.on('message', function (topic, message) {
-            if (topic === '/home/cave/sensors/distance')
-                self.setState({ distance: message.toString()});
-        });  
+        // client.on('message', function (topic, message) {
+        //     if (topic === '/home/cave/sensors/distance')
+        //         self.setState({ distance: message.toString()});
+        // });  
     }
     render(){
         return(
