@@ -33,14 +33,14 @@ class Distance extends Component {
   }
   componentDidMount() {
     const self = this;
-    // client.on('connect', function () {
-    //     client.subscribe('/home/cave/sensors/distance');
-    // });
+    client.on('connect', function () {
+        client.subscribe('/home/cave/sensors/distance');
+    });
 
-    // client.on('message', function (topic, message) {
-    //     if (topic === '/home/cave/sensors/distance')
-    //         self.setState({ distance: message.toString()});
-    // });
+    client.on('message', function (topic, message) {
+        if (topic === '/home/cave/sensors/distance')
+            self.setState({ distance: message.toString()});
+    });
   }
   render() {
     return (
@@ -50,7 +50,7 @@ class Distance extends Component {
             Distance
           </Typography>
           <Typography type="body1" className={this.classes.body}>
-            {this.state.distance}
+            {this.state.distance} cm
           </Typography>
         </Paper>
       </div>

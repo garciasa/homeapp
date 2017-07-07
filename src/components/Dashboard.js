@@ -47,7 +47,7 @@ function Dashboard(props) {
             <Temperature />
           </Grid>
           <Grid item xs={12} sm={4}>
-            <Camera videoW={320} videoH={240} />
+            <Camera videoW={640} videoH={480} />
           </Grid>
         </Grid>
       </div>

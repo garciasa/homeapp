@@ -15,9 +15,11 @@ const styleSheet = createStyleSheet('Camera', theme => ({
     textAlign: "center",
   },
   body: {
-    marginBottom: 16,
-    fontSize: 25,
-    color: theme.palette.text.secondary,
+    textAlign: "center",
+  },
+  camera: {
+    width: 'auto',
+    height: 240,
   },
 }));
 
@@ -29,9 +31,9 @@ function Camera(props) {
         <Typography type="headline" className={classes.headline}>
           Camera
         </Typography>
-        <video width={props.videoW} height={props.videoH}>
-          <source src="movie.mp4" type="video/mp4" />
-        </video>
+        <div className={classes.body}>
+          <img alt="camera" className={classes.camera} src="http://192.168.2.66:8080/?action=stream" />
+        </div>
       </Paper>
     </div>
   );
