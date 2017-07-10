@@ -32,7 +32,7 @@ function Camera(props) {
           Camera
         </Typography>
         <div className={classes.body}>
-          <img alt="camera" className={classes.camera} src="http://192.168.2.66:8080/?action=stream" />
+          {/*<img alt="camera" className={classes.camera} src="http://192.168.2.66:8080/?action=stream" />*/}
         </div>
       </Paper>
     </div>

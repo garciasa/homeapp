@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { withStyles, createStyleSheet } from 'material-ui/styles';
 import Paper from 'material-ui/Paper';
 import Typography from 'material-ui/Typography';
-import { client } from '../lib/mqtt';
+import { client } from '../../lib/mqtt';
 
 const styleSheet = createStyleSheet('Temperature', theme => ({
   root: theme.mixins.gutters({
